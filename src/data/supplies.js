@@ -1,0 +1,98 @@
+export const supplies = [
+  {
+    id: 1,
+    name: "Corrugated Shipping Box",
+    category: "Boxes",
+    size: '12" × 10" × 8"',
+    price: 2.49,
+    image: "/images/supplies/shipping-box.png",
+    description:
+      "Durable corrugated cardboard box suitable for shipping everyday products.",
+    inStock: true,
+    featured: true,
+  },
+  {
+    id: 2,
+    name: "Large Shipping Box",
+    category: "Boxes",
+    size: '18" × 14" × 12"',
+    price: 4.99,
+    image: "/images/supplies/large-shipping-box.jpg",
+    description:
+      "Strong large-size box for clothing, electronics, and household products.",
+    inStock: true,
+    featured: true,
+  },
+  {
+    id: 3,
+    name: "Bubble Mailer",
+    category: "Mailers",
+    size: '10" × 13"',
+    price: 1.25,
+    image: "/images/supplies/bubble-mailer.png",
+    description:
+      "Lightweight padded mailer that protects small and delicate products.",
+    inStock: true,
+    featured: true,
+  },
+  {
+    id: 4,
+    name: "Poly Mailer",
+    category: "Mailers",
+    size: '12" × 15.5"',
+    price: 0.75,
+    image: "/images/supplies/poly-mailer.png",
+    description:
+      "Water-resistant self-sealing mailer ideal for clothing and soft products.",
+    inStock: true,
+    featured: false,
+  },
+  {
+    id: 5,
+    name: "Packing Tape",
+    category: "Tape",
+    size: "48 mm × 50 m",
+    price: 3.49,
+    image: "/images/supplies/packing-tape.jpg",
+    description:
+      "Strong clear packing tape for securely sealing cartons and packages.",
+    inStock: true,
+    featured: true,
+  },
+  {
+    id: 6,
+    name: "Shipping Labels",
+    category: "Labels",
+    size: '4" × 6"',
+    price: 14.99,
+    image: "/images/supplies/shipping-labels.jpg",
+    description:
+      "Thermal shipping labels compatible with most standard label printers.",
+    inStock: true,
+    featured: false,
+  },
+  {
+    id: 7,
+    name: "Bubble Wrap Roll",
+    category: "Protection",
+    size: "12 in × 50 ft",
+    price: 12.99,
+    image: "/images/supplies/bubble-wrap.jpg",
+    description:
+      "Protective bubble wrap for cushioning fragile items during transportation.",
+    inStock: true,
+    featured: true,
+  },
+  {
+    id: 8,
+    name: "Packing Paper",
+    category: "Protection",
+    size: "100 sheets",
+    price: 9.99,
+    image: "/images/supplies/packing-paper.jpg",
+    description:
+      "Clean packing paper for wrapping products and filling empty package space.",
+    inStock: false,
+    featured: false,
+  },
+];
