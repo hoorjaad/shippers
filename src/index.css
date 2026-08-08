@@ -1,0 +1,19 @@
+@import "tailwindcss";
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  min-width: 320px;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  overflow-x: hidden;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
